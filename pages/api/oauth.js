@@ -36,7 +36,3 @@ if (u.localizedFirstName) {
 };
 
 export default Oauth
-<<<<<<< HEAD
-=======
-
->>>>>>> 4
