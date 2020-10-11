@@ -39,29 +39,3 @@ const Oauth = async (context) => {
 };
 
 export default Oauth
-
-
-// Oauth.getInitialProps = async context => {
-
-  
-
-//   let em = {};
-//   let ema = await fetch(
-//     "https://api.linkedin.com/v2/emailAddress?q=members&projection=(elements*(handle~))",
-//     {
-//       method: "GET",
-//       headers: { Connection: "Keep-Alive", Authorization: auth }
-//     }
-//   );
-//   if (ema.ok) em = await ema.json();
-//   const name = u.localizedFirstName;
-//   const famillyName = u.localizedLastName;
-//   const email = em.elements[0]["handle~"]["emailAddress"];
-//   const password = access_token;
-//   const tokenExpiry = expires_in;
-//   const user = { name, famillyName, email, password, tokenExpiry };
-
-//   return { user, access_token, expires_in };
-// };
-
-// export default withApollo(Oauth);
