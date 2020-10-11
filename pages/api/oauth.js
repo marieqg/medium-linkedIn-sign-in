@@ -1,14 +1,13 @@
 import { getURLWithQueryParams } from "../../helpers/auth";
-import Spinner from "../../assets/icons/Spinner";
 
 
-const Oauth = async (context) => {
+const Oauth = async (req, res) => {
   // Query to exchange our authorization code for an access token 
     const LINKEDIN_URL = getURLWithQueryParams(
         "https://www.linkedin.com/oauth/v2/accessToken",
         {
           grant_type: "authorization_code",
-          code: context.query.code,
+          code: req.query.code,
           redirect_uri: process.env.LINKEDIN_REDIRECT,
           client_id: process.env.LINKEDIN_CLIENT_ID,
           client_secret: process.env.LINKEDIN_CLIENT_SECRET
@@ -31,11 +30,13 @@ const Oauth = async (context) => {
     headers: { Connection: "Keep-Alive", Authorization: auth }
   });
   if (usr.ok) u = await usr.json();
-
-
-  return (
- <Spinner/>
-    );
+if (u.localizedFirstName) {
+  res.redirect(`/hello/${u.localizedFirstName}`)
+}
 };
 
 export default Oauth
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4
