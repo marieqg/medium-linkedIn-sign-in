@@ -11,6 +11,8 @@ This is a tutorial to help you realise a LinkedIn OAuth with Next.js. The detail
 Replace the file `example.env` by `.env` and add your own variables.
 
 **Final result :**
+
+
 ![Final Result](https://miro.medium.com/max/1200/1*fUohQcp4MZNRqlSavd4ztg.gif)
 
 ## Getting Started with Next.js
