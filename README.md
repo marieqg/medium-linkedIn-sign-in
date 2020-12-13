@@ -4,7 +4,7 @@ How the LinkedIn API works so you can add a LinkedIn Sign In to your Next.js pro
 
 [![LinkedInArticle](https://miro.medium.com/max/1400/1*Cm2s5fBnU_BqOFDlNMuagQ.jpeg)](https://medium.com/javascript-in-plain-english/how-to-implement-linkedin-sign-in-with-next-js-3f00e7dee310)
 
-This is a tutorial to help you realise a LinkedIn OAuth with Next.js. The details of this article can be find [here](https://medium.com/javascript-in-plain-english/how-to-implement-linkedin-sign-in-with-next-js-3f00e7dee310).
+This is a tutorial to help you realise a LinkedIn OAuth with Next.js. You can read the all article related to this repository [here](https://medium.com/javascript-in-plain-english/how-to-implement-linkedin-sign-in-with-next-js-3f00e7dee310).
 
 ## Getting Started with the project
 
