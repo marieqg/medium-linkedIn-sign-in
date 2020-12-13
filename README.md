@@ -5,7 +5,7 @@
 <p align="center">
     <img alt="Next.js" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/414px-Nextjs-logo.svg.png" width="60" />
 <h1 align="center">
-How To Implement LinkedIn Sign In With Next.js 
+How To Implement LinkedIn Sign In With Next.js </h1
 </p>
 
 [![LinkedInArticle](https://miro.medium.com/max/1400/1*Cm2s5fBnU_BqOFDlNMuagQ.jpeg)](https://medium.com/javascript-in-plain-english/how-to-implement-linkedin-sign-in-with-next-js-3f00e7dee310)
