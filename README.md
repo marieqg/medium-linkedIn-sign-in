@@ -10,7 +10,7 @@ How To Implement LinkedIn Sign In With Next.js
 
 [![LinkedInArticle](https://miro.medium.com/max/1400/1*Cm2s5fBnU_BqOFDlNMuagQ.jpeg)](https://medium.com/javascript-in-plain-english/how-to-implement-linkedin-sign-in-with-next-js-3f00e7dee310)
 
-This is a tutorial to help you realise a LinkedIn OAuth with Next.js. You can read the all article related to this repository [here](https://medium.com/javascript-in-plain-english/how-to-implement-linkedin-sign-in-with-next-js-3f00e7dee310).
+<p>This is a tutorial to help you realise a LinkedIn OAuth with Next.js. You can read the all article related to this repository [here](https://medium.com/javascript-in-plain-english/how-to-implement-linkedin-sign-in-with-next-js-3f00e7dee310).</p>
 
 ## 🚀 Quick start
 
